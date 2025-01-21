@@ -1,9 +1,19 @@
 ------------------------------------------------------------------------
-Dies ist die README-Datei des Projekts. Hier sollten Sie Ihr Projekt
-beschreiben.
-Erzählen Sie dem Leser (jemand, der nichts über dieses Projekt weiss),
-alles, was er/sie wissen muss. Üblicherweise sollte der Kommentar 
-zumindest die folgenden Angaben umfassen:
+# WarenkorbSystem
+
+Ein einfaches Warenkorbsystem in Java, das grundlegende OOP-Konzepte demonstriert.
+
+## Features
+- **Artikel hinzufügen:** Füge Artikel mit Namen, Preis und Menge zum Warenkorb hinzu.
+- **Artikel entfernen:** Entferne Artikel basierend auf dem Namen.
+- **Gesamtpreis berechnen:** Erhalte die Gesamtkosten aller Artikel im Warenkorb.
+- **Warenkorb anzeigen:** Zeige eine vollständige Übersicht über alle Artikel im Warenkorb.
+
+## Installation
+1. **Repository klonen:**
+   ```bash
+   git clone https://github.com/NittayaInJava/WarenkorbSytem.git
+
 ------------------------------------------------------------------------
 
 PROJEKTBEZEICHNUNG:
