@@ -15,10 +15,10 @@ public class Main {
         // Warenkorb anzeigen
         warenkorb.zeigeWarenkorb();
 
-        // Artikel entfernen
-        warenkorb.artikelEntfernen("Brot");
+        // Menge aktualisieren
+        warenkorb.mengeAktualisieren("Apfel", 20);
 
-        // Warenkorb anzeigen
+        // Warenkorb erneut anzeigen
         warenkorb.zeigeWarenkorb();
 
         // Gesamtpreis berechnen

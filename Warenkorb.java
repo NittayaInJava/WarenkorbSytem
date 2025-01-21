@@ -28,6 +28,28 @@ public class Warenkorb {
             System.out.println("Artikel nicht gefunden: " + name);
         }
     }
+    
+    public void mengeAktualisieren(String name, int neueMenge){
+        boolean gefunden=false;
+        for(Artikel artikel:artikelListe){
+            if(artikel.getName().equalsIgnoreCase(name)){
+                if(neueMenge>0){
+                    artikelListe.set(artikelListe.indexOf(artikel),
+                    new Artikel(artikel.getName(), artikel.getPreis(), neueMenge));
+                System.out.println("Menge von "+name + " aktualisiert auf" + neueMenge);
+                
+                }else {
+                    System.out.println("Ungültige Menge. Sie muss größer als 0 sein.");
+                }
+                gefunden = true;
+                break;
+            }
+        }
+        if (!gefunden) {
+            System.out.println("Artikel nicht gefunden: " + name);
+            }
+        }
+    
 
     public void zeigeWarenkorb() {
         if (artikelListe.isEmpty()) {
